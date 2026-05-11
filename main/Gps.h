@@ -4,5 +4,8 @@
 #include <Arduino.h>
 
 void sendLocationUpdate();
+bool initGPSModule();
+void sendLocationToTraccar(float lat, float lon);
+void flickerInternalLED();
 
 #endif

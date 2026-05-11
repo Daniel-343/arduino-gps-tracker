@@ -5,5 +5,8 @@
 
 bool connectCellular();
 bool isCellularConnected();
+void setCurrentTime();
+void getCurrentTime();
+void print2digits(int number);
 
 #endif

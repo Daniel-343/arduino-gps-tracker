@@ -4,5 +4,6 @@
 #include <Arduino.h>
 
 bool initializeHardware();
+void getBatteryStatus();
 
 #endif
